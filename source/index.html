@@ -5,8 +5,100 @@
     <title>HTML Academy: Мишка</title>
   </head>
   <body>
-
-    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/adaptive">HTML и CSS, уровень 2</a>».</p>
-
+    <header class="menu">
+      <img class="menu--logo">
+      <button class="menu--burger"></button>
+      <nav>
+        <ul>
+          <li><a href="catalog.html">Каталог товаров</a></li>
+          <li><a href="form.html">Вязание на заказ</a></li>
+          <li><a href="#">Поиск по сайту</a></li>
+          <li><a href="#">Корзина: пока пуста</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="intro">
+        <h1>Милые штуки ручной работы для дома</h1>
+        <ul>
+          <li>Предметы интерьера</li>
+          <li>Детские игрушки</li>
+        </ul>
+      </section>
+      <section class="offer">
+        <h2>Вязаные корзинки</h2>
+        <b>Товар недели</b>
+        <p>Экологически чистая пряжа, ручная работа. Доступны в шести расцветках, и трех размерах.</p>
+        <ul class="offer__characteristics">
+          <li>
+            <span>Цвет:</span><span>«Тиффани»/серый</span>
+          </li>
+          <li>
+            <span>Диаметр:</span><span>25 см</span>
+          </li>
+          <li>
+            <span>Высота:</span><span>15 см</span>
+          </li>
+        </ul>
+        <img src="" alt="Фотография трех вязаных корзинок">
+        <p class="offer__cost">Цена: 990 руб.</p>
+        <button class="offer_button button">Заказать</button>
+      </section>
+      <section class="about-us">
+        <h2>Коротко о нас:</h2>
+        <ul>
+          <li>Экологически чистые материалы</li>
+          <li>Скандинавский стиль по российской цене</li>
+          <li>Увеличивает лайки на фотографиях</li>
+          <li>Связано вручную с любовью и умилением</li>
+          <li>Поддержка отечественного производителя</li>
+          <li>Поставляется в подарочной упаковке</li>
+        </ul>
+      </section>
+      <section class="feedback">
+        <h2>Отзывы</h2>
+        <div class="slider">
+          <div class="slide-1">
+            <p>Я молодая мама, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров и игрушек в Мишке, и мои фотографии сразу стали более стильными, а также набирают больше лайков!</p>
+            <p>Анастасия Красильникова</p>
+            <p>@misssssiskras</p>
+            <div class="slider__navigation">
+              <button class="slider__prev button"><-</button>
+              <button class="slider__next button">-></button>
+            </div>
+            <button class="slider__next button">Написать</button>
+          </div>
+        </div>
+      </section>
+      <section class="contacts">
+        <h2>Контакты</h2>
+        <ul>
+          <li>
+            <span>e-mail:</span><span>info@mimimishkashop.ru</span>
+          </li>
+          <li>
+            <span>адрес:</span><span>г. Санкт-Петербург, ул. Большая Конюшенная,д. 19/8,  офис 101</span>
+          </li>
+        </ul>
+        <div class="contacts__map">
+          <img src="" alt="Карта с адресом кампании">
+        </div>
+        <button class="button">Напишите нам</button>
+      </section>
+    </main>
+    <footer class="footer">
+      <img class="visually-hidden" src="" alt="Логотип компании">
+      <ul>
+        <li><a href="#">Инстаграм</a></li>
+        <li><a href="#">Фейсбук</a></li>
+        <li><a href="#">Твиттер</a></li>
+      </ul>
+      <div>
+        <span>Разработано</span>
+        <a href="#">
+          <img src="" alt="Логотип HTML-академии">
+        </a>
+      </div>
+    </footer>
   </body>
 </html>
